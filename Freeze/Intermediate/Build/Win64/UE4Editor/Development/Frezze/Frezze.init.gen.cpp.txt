@@ -1,0 +1,3 @@
+D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\Definitions.Frezze.h
+D:\UE_4.22\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.22\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
