@@ -1,4 +1,4 @@
-﻿Log file open, 08/29/19 14:51:11
+﻿Log file open, 08/29/19 15:32:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Frezze
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.276724
+LogStats: Stats thread started at 0.271734
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,7 +125,7 @@ LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
-LogInit: Command Line:  -EpicPortal -epicusername=Miu_H -epicuserid=b3ad1d03f974412f9b4f9af7fa75f27d -epiclocale=ja-JP
+LogInit: Command Line: 
 LogInit: Base Directory: D:/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -156,545 +156,499 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
-[2019.08.29-05.51.11:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.08.29-05.51.11:934][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.08.29-05.51.11:935][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.08.29-05.51.11:935][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.08.29-05.51.11:935][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.08.29-05.51.11:935][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.08.29-05.51.11:935][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.08.29-05.51.11:935][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
-[2019.08.29-05.51.11:935][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.29-05.51.11:938][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.29-05.51.11:938][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.29-05.51.11:938][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.08.29-05.51.11:955][  0]LogHAL: Display: Platform has ~ 32 GB [34292334592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.08.29-05.51.11:955][  0]LogInit: Going up to parent DeviceProfile []
-[2019.08.29-05.51.11:955][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.29-05.51.11:955][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.08.29-05.51.11:956][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
-[2019.08.29-05.51.11:957][  0]LogInit: Computer: F53PC25
-[2019.08.29-05.51.11:957][  0]LogInit: User: s172179
-[2019.08.29-05.51.11:957][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.08.29-05.51.11:957][  0]LogInit: High frequency timer resolution =4.101567 MHz
-[2019.08.29-05.51.11:957][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.08.29-05.51.11:957][  0]LogMemory: Platform Memory Stats for Windows
-[2019.08.29-05.51.11:957][  0]LogMemory: Process Physical Memory: 97.07 MB used, 97.07 MB peak
-[2019.08.29-05.51.11:957][  0]LogMemory: Process Virtual Memory: 88.85 MB used, 88.85 MB peak
-[2019.08.29-05.51.11:957][  0]LogMemory: Physical Memory: 7747.52 MB used,  24956.20 MB free, 32703.72 MB total
-[2019.08.29-05.51.11:957][  0]LogMemory: Virtual Memory: 4659.28 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.08.29-05.51.11:992][  0]LogInit: Using OS detected language (ja-JP).
-[2019.08.29-05.51.11:992][  0]LogInit: Using OS detected locale (ja-JP).
-[2019.08.29-05.51.11:993][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2019.08.29-05.51.12:055][  0]LogInit: Setting process to per monitor DPI aware
-[2019.08.29-05.51.12:106][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.08.29-05.51.12:106][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.08.29-05.51.13:363][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.29-05.51.13:363][  0]LogD3D11RHI: D3D11 adapters:
-[2019.08.29-05.51.13:450][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.08.29-05.51.13:450][  0]LogD3D11RHI:       8079/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.08.29-05.51.13:453][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.29-05.51.13:453][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.29-05.51.13:453][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.08.29-05.51.13:459][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.08.29-05.51.13:459][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.08.29-05.51.13:459][  0]LogWindows: EnumDisplayDevices:
-[2019.08.29-05.51.13:459][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.08.29-05.51.13:459][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.08.29-05.51.13:459][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.08.29-05.51.13:460][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.08.29-05.51.13:460][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.08.29-05.51.13:460][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.08.29-05.51.13:460][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
-[2019.08.29-05.51.13:460][  0]LogD3D11RHI:      Driver Date: 6-5-2019
-[2019.08.29-05.51.13:460][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.08.29-05.51.13:508][  0]LogD3D11RHI: Async texture creation enabled
-[2019.08.29-05.51.13:511][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.29-05.51.13:511][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.29-05.51.13:511][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.29-05.51.13:518][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.08.29-05.51.13:877][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.08.29-05.51.13:889][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.08.29-05.51.13:902][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.08.29-05.51.13:914][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.08.29-05.51.13:929][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.08.29-05.51.13:942][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.08.29-05.51.13:955][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.08.29-05.51.13:968][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.08.29-05.51.13:974][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.08.29-05.51.14:046][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.08.29-05.51.14:048][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.08.29-05.51.14:098][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.08.29-05.51.14:098][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.08.29-05.51.14:122][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.08.29-05.51.14:122][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.08.29-05.51.14:135][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.08.29-05.51.14:147][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.08.29-05.51.14:159][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.08.29-05.51.14:175][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.08.29-05.51.14:230][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.08.29-05.51.14:230][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.08.29-05.51.14:230][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.08.29-05.51.14:245][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.08.29-05.51.14:288][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Intermediate/Shaders/WorkingDirectory/5704/).
-[2019.08.29-05.51.14:288][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s172179/AppData/Local/Temp/UnrealShaderWorkingDir/D9981B3F4BCAFE6182DDD0904BCD87E5/'.
-[2019.08.29-05.51.14:289][  0]LogXGEController: Cleaning working directory: C:/Users/s172179/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.08.29-05.51.14:289][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.08.29-05.51.14:289][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.08.29-05.51.14:289][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.08.29-05.51.15:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.08.29-05.51.15:628][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/s172179/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.29-05.51.15:628][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s172179/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.08.29-05.51.15:628][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.08.29-05.51.15:628][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.08.29-05.51.15:628][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.29-05.51.15:628][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.08.29-05.51.15:639][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.08.29-05.51.15:640][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.29-05.51.15:640][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.08.29-05.51.15:654][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s172179/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.08.29-05.51.15:654][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.08.29-05.51.15:654][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.08.29-05.51.15:671][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.08.29-05.51.15:672][  0]LogSlate: Using FreeType 2.6.0
-[2019.08.29-05.51.15:676][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.08.29-05.51.15:919][  0]LogAssetRegistry: FAssetRegistry took 0.0326 seconds to start up
-[2019.08.29-05.51.16:205][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.29-05.51.16:331][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.08.29-05.51.16:331][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.08.29-05.51.16:331][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.08.29-05.51.16:331][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.08.29-05.51.16:331][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.08.29-05.51.16:351][  0]LogNetVersion: Frezze 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1481717962)
-[2019.08.29-05.51.16:828][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.084414 seconds
-[2019.08.29-05.51.16:834][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.08.29-05.51.16:834][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.08.29-05.51.16:834][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.08.29-05.51.19:240][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.08.29-05.51.19:254][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.08.29-05.51.19:361][  0]SourceControl: ソースコントロールは無効です
-[2019.08.29-05.51.19:361][  0]SourceControl: ソースコントロールは無効です
-[2019.08.29-05.51.19:362][  0]SourceControl: ソースコントロールは無効です
-[2019.08.29-05.51.19:364][  0]SourceControl: ソースコントロールは無効です
-[2019.08.29-05.51.19:371][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.08.29-05.51.19:372][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.08.29-05.51.19:471][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.08.29-05.51.19:543][  0]LogOcInput: OculusInput pre-init called
-[2019.08.29-05.51.21:009][  0]LogEngine: Initializing Engine...
-[2019.08.29-05.51.21:011][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.29-05.51.21:012][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.08.29-05.51.21:247][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.08.29-05.51.21:257][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.08.29-05.51.21:293][  0]LogInit: XAudio2 using 'スピーカー (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.08.29-05.51.21:310][  0]LogInit: FAudioDevice initialized.
-[2019.08.29-05.51.21:310][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.08.29-05.51.21:377][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/s172179/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.29-05.51.21:383][  0]LogInit: Texture streaming: Enabled
-[2019.08.29-05.51.21:400][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.08.29-05.51.21:417][  0]LogInit: Transaction tracking system initialized
-[2019.08.29-05.51.21:439][  0]BlueprintLog: New page: エディタの読み込み
-[2019.08.29-05.51.21:513][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2019.08.29-05.51.21:656][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.08.29-05.51.21:656][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.08.29-05.51.21:857][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/' took 0.02s
-[2019.08.29-05.51.21:857][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.08.29-05.51.21:857][  0]LogCook: Display: Mobile HDR setting 1
-[2019.08.29-05.51.22:099][  0]SourceControl: ソースコントロールは無効です
-[2019.08.29-05.51.22:099][  0]Cmd: MAP LOAD FILE="C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.08.29-05.51.22:100][  0]LightingResults: New page: ライティングのビルド
-[2019.08.29-05.51.22:102][  0]MapCheck: New page: マップをチェック
-[2019.08.29-05.51.22:102][  0]LightingResults: New page: ライティングのビルド
-[2019.08.29-05.51.22:124][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
-[2019.08.29-05.51.22:303][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
-[2019.08.29-05.51.22:304][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.51.22:310][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
-[2019.08.29-05.51.22:310][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.51.22:311][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
-[2019.08.29-05.51.22:311][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.51.22:311][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
-[2019.08.29-05.51.22:311][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.51.22:324][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
-[2019.08.29-05.51.22:324][  0]LoadErrors: ロードに失敗しました /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData 参照元 PersistentLevel
-[2019.08.29-05.51.22:324][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.51.22:466][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.08.29-05.51.22:504][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.08.29-05.51.22:527][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
-[2019.08.29-05.51.22:527][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.08.29-05.51.22:527][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.179ミリ秒かかりました。
-[2019.08.29-05.51.22:527][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.428
-[2019.08.29-05.51.22:630][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.29-05.51.22:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.29-05.51.22:642][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.29-05.51.22:647][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.29-05.51.22:654][  0]LogCollectionManager: Loaded 0 collections in 0.000589 seconds
-[2019.08.29-05.51.22:694][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Collections/' took 0.01s
-[2019.08.29-05.51.22:694][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/Developers/s172179/Collections/' took 0.01s
-[2019.08.29-05.51.22:694][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/Collections/' took 0.01s
-[2019.08.29-05.51.22:694][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.08.29-05.51.22:706][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2732 classes and 659 folders.
-[2019.08.29-05.51.22:718][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.08.29-05.51.22:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:747][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:753][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:758][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:779][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:799][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:804][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:809][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:814][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:818][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:822][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:845][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.29-05.51.22:961][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.08.29-05.51.22:966][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.08.29-05.51.22:981][  0]LogSlate: Took 0.002093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.08.29-05.51.22:984][  0]LogSlate: Took 0.002045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
-[2019.08.29-05.51.22:986][  0]LogSlate: Took 0.002210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
-[2019.08.29-05.51.22:988][  0]LogSlate: Took 0.001752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.08.29-05.51.22:992][  0]LogSlate: Took 0.001833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.08.29-05.51.23:066][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.08.29-05.51.23:198][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.08.29-05.51.23:198][  0]LogLoad: (Engine Initialization) Total time: 13.41 seconds
-[2019.08.29-05.51.23:198][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.08.29-05.51.23:250][  0]LogAssetRegistry: Asset discovery search completed in 7.3535 seconds
-[2019.08.29-05.51.23:251][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.08.29-05.51.23:251][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2019.08.29-05.51.23:254][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.08.29-05.51.23:264][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.29-05.51.23:289][  0]LogSlate: Took 0.001519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.29-05.51.23:547][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/' took 0.32s
-[2019.08.29-05.51.35:752][556]LogSlate: Window 'メッセージ ログ' being destroyed
-[2019.08.29-05.51.35:755][556]LogSlate: Window 'メッセージ ログ' being destroyed
-[2019.08.29-05.51.43:933][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.29-05.51.44:016][547]MapCheck: New page: マップをチェック
-[2019.08.29-05.51.44:027][547]Cmd: MAP REBUILD ALLVISIBLE
-[2019.08.29-05.51.44:027][547]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.08.29-05.51.44:096][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
-[2019.08.29-05.51.44:121][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:129][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:136][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:141][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:147][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:153][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:159][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:165][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:171][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:177][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.44:184][547]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2019.08.29-05.51.45:419][547]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.08.29-05.51.45:419][547]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.08.29-05.51.45:419][547]TextureStreamingBuild: Display: Compiling optional shaders took 1.303 seconds.
-[2019.08.29-05.51.45:428][547]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
-[2019.08.29-05.51.45:449][547]TextureStreamingBuild: Display: Build Texture Streaming took 0.021 seconds.
-[2019.08.29-05.51.45:466][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
-[2019.08.29-05.51.45:467][547]LightingResults: New page: ライティングのビルド - 2019/08/29 23:51:45
-[2019.08.29-05.51.45:520][547]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.08.29-05.51.45:594][547]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.08.29-05.51.45:617][547]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.08.29-05.51.46:131][547]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.08.29-05.51.46:131][547]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5704
-[2019.08.29-05.51.49:725][547]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.08.29-05.51.49:725][547]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.08.29-05.51.49:725][547]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.08.29-05.51.49:725][547]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.08.29-05.51.49:725][547]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.08.29-05.51.49:865][547]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.08.29-05.51.49:865][547]MapCheck: New page: SideScrollerExampleMap - 2019/08/29 23:51:49
-[2019.08.29-05.51.49:866][547]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.472ミリ秒かかりました。
-[2019.08.29-05.51.49:889][547]LogEditorBuildUtils: Build time 0:05
-[2019.08.29-05.51.49:995][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2019.08.29-05.51.54:011][883]Job is a success!
-[2019.08.29-05.51.54:035][884]LogSlate: Took 0.000650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.29-05.51.54:045][884]LogSlate: Took 0.001716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
-[2019.08.29-05.51.54:082][884]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.027s
-[2019.08.29-05.51.54:082][884]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2019.08.29-05.51.54:082][884]LogVolumetricLightmapImport:      BrickData 220x5x5 = 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
-[2019.08.29-05.51.54:082][884]LogVolumetricLightmapImport:      Bricks at Level
-[2019.08.29-05.51.54:082][884]LogVolumetricLightmapImport:          0: 2.3% covering 100.0% of volume
-[2019.08.29-05.51.54:082][884]LogVolumetricLightmapImport:          1: 9.1% covering 6.3% of volume
-[2019.08.29-05.51.54:082][884]LogVolumetricLightmapImport:          2: 88.6% covering 1.0% of volume
-[2019.08.29-05.51.54:701][884]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2019.08.29-05.51.54:701][884]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2019.08.29-05.51.54:701][884]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2019.08.29-05.51.54:701][884]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2019.08.29-05.51.54:701][884]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2019.08.29-05.51.54:701][884]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2019.08.29-05.51.54:727][884]Lightmass on F53PC25: 4.23 sec total, 106 ms importing, 3 ms setup, 1.07 sec photons, 2.99 sec processing, 0 ms extra exporting [4/4 mappings]. Threads: 20.8 sec total, 2.31 sec processing.
-[2019.08.29-05.51.54:728][884]LogStaticLightingSystem: SideScrollerExampleMap_BuiltData storing lightmap data for 4 meshes in 2 LightmapResourceClusters (2.0 Meshes per cluster).
-[2019.08.29-05.51.54:748][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
-[2019.08.29-05.51.54:753][884]LogStaticLightingSystem: Illumination: 9.27 sec (593 ms encoding lightmaps, 0 ms encoding shadowmaps)
-[2019.08.29-05.51.54:753][884]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2019.08.29-05.51.54:753][884]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
-[2019.08.29-05.51.55:735][884]DumpUnbuiltLightIteractions
-[2019.08.29-05.51.55:735][884]Lights with unbuilt interactions: 0
-[2019.08.29-05.51.55:735][884]
-[2019.08.29-05.51.55:735][884]Primitives with unbuilt interactions: 0
-[2019.08.29-05.51.55:791][885]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.08.29-05.51.55:791][885]MapCheck: New page: SideScrollerExampleMap - 2019/08/29 23:51:55
-[2019.08.29-05.51.55:792][885]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.455ミリ秒かかりました。
-[2019.08.29-05.51.57:210][ 55]LogTemp: Repeating last play command: 選択ビューポート
-[2019.08.29-05.51.57:223][ 55]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.08.29-05.51.57:223][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.29-05.51.57:224][ 55]PIE: New page: PIEセッション: SideScrollerExampleMap (2019/08/29 23:51:57)
-[2019.08.29-05.51.57:236][ 55]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2019.08.29-05.51.57:255][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019439s)
-[2019.08.29-05.51.57:255][ 55]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.08.29-05.51.57:255][ 55]LogPlayLevel: PIE: World Init took: (0.000515s)
-[2019.08.29-05.51.57:255][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020240s)
-[2019.08.29-05.51.57:275][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2019.08.29-05.51.57:280][ 55]LogInit: XAudio2 using 'スピーカー (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.08.29-05.51.57:284][ 55]LogInit: FAudioDevice initialized.
-[2019.08.29-05.51.57:327][ 55]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.08.29-05.51.57:331][ 55]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2019.08.29-14.51.57
-[2019.08.29-05.51.57:331][ 55]LogWorld: Bringing up level for play took: 0.003325
-[2019.08.29-05.51.57:347][ 55]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.08.29-05.51.57:348][ 55]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.718のプレイ イン エディタの開始時間
-[2019.08.29-05.51.57:348][ 55]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.08.29-05.52.04:322][883]LogLevel: Warning: Failed to find streaming level object associated with 'ResultMap'
-[2019.08.29-05.52.04:353][884]LogNet: Browse: /Game/SideScrollerBP/Maps/ResultMap
-[2019.08.29-05.52.04:360][884]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/ResultMap
-[2019.08.29-05.52.04:382][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
-[2019.08.29-05.52.04:385][884]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/ResultMap_BuiltData' が見つかりません
-[2019.08.29-05.52.04:385][884]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/ResultMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.52.04:387][884]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/ResultMap_BuiltData' が見つかりません
-[2019.08.29-05.52.04:387][884]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/ResultMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.52.04:388][884]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/ResultMap_BuiltData' が見つかりません
-[2019.08.29-05.52.04:388][884]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/ResultMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.52.04:388][884]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/ResultMap_BuiltData' が見つかりません
-[2019.08.29-05.52.04:388][884]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/ResultMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.52.04:392][884]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/ResultMap_BuiltData' が見つかりません
-[2019.08.29-05.52.04:392][884]LoadErrors: ロードに失敗しました /Game/SideScrollerBP/Maps/ResultMap_BuiltData.ResultMap_BuiltData 参照元 PersistentLevel
-[2019.08.29-05.52.04:392][884]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/ResultMap_BuiltData'  のファイルが見つかりません
-[2019.08.29-05.52.04:394][884]LogAIModule: Creating AISystem for world ResultMap
-[2019.08.29-05.52.04:394][884]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2019.08.29-05.52.04:395][884]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_ResultMap.ResultMap up for play (max tick rate 0) at 2019.08.29-14.52.04
-[2019.08.29-05.52.04:395][884]LogWorld: Bringing up level for play took: 0.000731
-[2019.08.29-05.52.04:443][884]LogLoad: Took 0.082848 seconds to LoadMap(/Game/SideScrollerBP/Maps/ResultMap)
-[2019.08.29-05.52.11:603][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.29-05.52.11:712][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.08.29-05.52.11:712][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.29-05.52.11:739][751]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.29-05.52.11:740][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2019.08.29-05.52.11:762][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.29-05.52.11:765][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
-[2019.08.29-05.52.11:815][757]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.08.29-06.32.04:030][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.29-06.32.04:030][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.29-06.32.04:031][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.08.29-06.32.04:031][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.08.29-06.32.04:036][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:036][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.29-06.32.04:036][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.29-06.32.04:036][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.29-06.32.04:037][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.29-06.32.04:038][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.29-06.32.04:039][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:039][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.29-06.32.04:039][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.29-06.32.04:039][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.29-06.32.04:039][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.29-06.32.04:079][  0]LogHAL: Display: Platform has ~ 32 GB [34292334592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.29-06.32.04:079][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.08.29-06.32.04:079][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.29-06.32.04:080][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.29-06.32.04:080][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.29-06.32.04:081][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.29-06.32.04:082][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.29-06.32.04:082][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.29-06.32.04:082][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.29-06.32.04:082][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.08.29-06.32.04:082][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.29-06.32.04:082][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.29-06.32.04:082][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.29-06.32.04:083][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.29-06.32.04:083][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.08.29-06.32.04:083][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.08.29-06.32.04:083][  0]LogInit: Computer: F53PC25
+[2019.08.29-06.32.04:083][  0]LogInit: User: s172179
+[2019.08.29-06.32.04:083][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.29-06.32.04:083][  0]LogInit: High frequency timer resolution =4.101567 MHz
+[2019.08.29-06.32.04:084][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.08.29-06.32.04:084][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.29-06.32.04:084][  0]LogMemory: Process Physical Memory: 97.12 MB used, 97.12 MB peak
+[2019.08.29-06.32.04:084][  0]LogMemory: Process Virtual Memory: 88.86 MB used, 88.86 MB peak
+[2019.08.29-06.32.04:084][  0]LogMemory: Physical Memory: 7522.83 MB used,  25180.89 MB free, 32703.72 MB total
+[2019.08.29-06.32.04:084][  0]LogMemory: Virtual Memory: 4659.28 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.08.29-06.32.04:130][  0]LogInit: Using OS detected language (ja-JP).
+[2019.08.29-06.32.04:130][  0]LogInit: Using OS detected locale (ja-JP).
+[2019.08.29-06.32.04:130][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2019.08.29-06.32.04:190][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.29-06.32.04:224][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.29-06.32.04:224][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.29-06.32.05:273][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.29-06.32.05:273][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.29-06.32.05:349][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.08.29-06.32.05:349][  0]LogD3D11RHI:       8079/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.08.29-06.32.05:352][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.29-06.32.05:352][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.29-06.32.05:352][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.29-06.32.05:357][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.29-06.32.05:357][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.29-06.32.05:357][  0]LogWindows: EnumDisplayDevices:
+[2019.08.29-06.32.05:357][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.08.29-06.32.05:358][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.08.29-06.32.05:358][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.08.29-06.32.05:358][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.08.29-06.32.05:358][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.29-06.32.05:358][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.08.29-06.32.05:358][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
+[2019.08.29-06.32.05:358][  0]LogD3D11RHI:      Driver Date: 6-5-2019
+[2019.08.29-06.32.05:358][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.08.29-06.32.05:405][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.29-06.32.05:408][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.29-06.32.05:408][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.29-06.32.05:408][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.29-06.32.05:416][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.29-06.32.05:739][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.08.29-06.32.05:751][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.08.29-06.32.05:763][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.08.29-06.32.05:775][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.08.29-06.32.05:790][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.08.29-06.32.05:802][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.08.29-06.32.05:814][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.08.29-06.32.05:826][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.08.29-06.32.05:832][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.08.29-06.32.05:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.08.29-06.32.05:896][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.08.29-06.32.05:946][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.08.29-06.32.05:946][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.08.29-06.32.05:968][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.08.29-06.32.05:968][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.08.29-06.32.05:980][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.08.29-06.32.05:991][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.08.29-06.32.06:004][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.08.29-06.32.06:019][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.08.29-06.32.06:062][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.08.29-06.32.06:062][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.08.29-06.32.06:062][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.29-06.32.06:071][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.08.29-06.32.06:114][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Intermediate/Shaders/WorkingDirectory/12408/).
+[2019.08.29-06.32.06:115][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s172179/AppData/Local/Temp/UnrealShaderWorkingDir/66A101AE46618D5032133C8B6DB7C2E9/'.
+[2019.08.29-06.32.06:116][  0]LogXGEController: Cleaning working directory: C:/Users/s172179/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.29-06.32.06:116][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.29-06.32.06:116][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.29-06.32.06:116][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.29-06.32.07:412][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.29-06.32.07:454][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/s172179/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.29-06.32.07:454][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s172179/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.08.29-06.32.07:454][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.29-06.32.07:455][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.29-06.32.07:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.29-06.32.07:455][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.29-06.32.07:466][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.29-06.32.07:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.29-06.32.07:466][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.08.29-06.32.07:480][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s172179/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.29-06.32.07:480][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.29-06.32.07:480][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.29-06.32.07:500][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.29-06.32.07:501][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.29-06.32.07:505][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.29-06.32.07:751][  0]LogAssetRegistry: FAssetRegistry took 0.0322 seconds to start up
+[2019.08.29-06.32.08:033][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.29-06.32.08:099][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.29-06.32.08:099][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.08.29-06.32.08:099][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.29-06.32.08:099][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.08.29-06.32.08:099][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.08.29-06.32.08:173][  0]LogNetVersion: Frezze 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1481717962)
+[2019.08.29-06.32.08:682][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.086830 seconds
+[2019.08.29-06.32.08:693][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.08.29-06.32.08:693][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.08.29-06.32.08:693][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.29-06.32.11:245][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.29-06.32.11:259][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.29-06.32.11:437][  0]SourceControl: ソースコントロールは無効です
+[2019.08.29-06.32.11:437][  0]SourceControl: ソースコントロールは無効です
+[2019.08.29-06.32.11:442][  0]SourceControl: ソースコントロールは無効です
+[2019.08.29-06.32.11:444][  0]SourceControl: ソースコントロールは無効です
+[2019.08.29-06.32.11:454][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.08.29-06.32.11:455][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.08.29-06.32.11:553][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.29-06.32.11:622][  0]LogOcInput: OculusInput pre-init called
+[2019.08.29-06.32.12:857][  0]LogEngine: Initializing Engine...
+[2019.08.29-06.32.12:859][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.29-06.32.12:860][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.08.29-06.32.13:074][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.29-06.32.13:083][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.29-06.32.13:091][  0]LogInit: XAudio2 using 'スピーカー (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.08.29-06.32.13:106][  0]LogInit: FAudioDevice initialized.
+[2019.08.29-06.32.13:106][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.29-06.32.13:174][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/s172179/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.29-06.32.13:176][  0]LogInit: Texture streaming: Enabled
+[2019.08.29-06.32.13:206][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.29-06.32.13:242][  0]LogInit: Transaction tracking system initialized
+[2019.08.29-06.32.13:262][  0]BlueprintLog: New page: エディタの読み込み
+[2019.08.29-06.32.13:350][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2019.08.29-06.32.13:470][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.08.29-06.32.13:470][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.08.29-06.32.13:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/' took 0.02s
+[2019.08.29-06.32.13:667][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.29-06.32.13:667][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.29-06.32.13:964][  0]SourceControl: ソースコントロールは無効です
+[2019.08.29-06.32.13:964][  0]Cmd: MAP LOAD FILE="C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.29-06.32.13:965][  0]LightingResults: New page: ライティングのビルド
+[2019.08.29-06.32.13:967][  0]MapCheck: New page: マップをチェック
+[2019.08.29-06.32.13:967][  0]LightingResults: New page: ライティングのビルド
+[2019.08.29-06.32.13:987][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.08.29-06.32.14:162][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
+[2019.08.29-06.32.14:162][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
+[2019.08.29-06.32.14:168][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
+[2019.08.29-06.32.14:168][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
+[2019.08.29-06.32.14:169][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
+[2019.08.29-06.32.14:169][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
+[2019.08.29-06.32.14:169][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
+[2019.08.29-06.32.14:169][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
+[2019.08.29-06.32.14:209][  0]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' が見つかりません
+[2019.08.29-06.32.14:209][  0]LoadErrors: ロードに失敗しました /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData 参照元 PersistentLevel
+[2019.08.29-06.32.14:209][  0]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'  のファイルが見つかりません
+[2019.08.29-06.32.14:310][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.08.29-06.32.14:350][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.29-06.32.14:374][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.08.29-06.32.14:374][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.29-06.32.14:375][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.19ミリ秒かかりました。
+[2019.08.29-06.32.14:375][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.410
+[2019.08.29-06.32.14:467][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.29-06.32.14:473][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.29-06.32.14:480][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.29-06.32.14:488][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.29-06.32.14:495][  0]LogCollectionManager: Loaded 0 collections in 0.000580 seconds
+[2019.08.29-06.32.14:537][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Saved/Collections/' took 0.01s
+[2019.08.29-06.32.14:537][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/Developers/s172179/Collections/' took 0.01s
+[2019.08.29-06.32.14:537][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/Collections/' took 0.01s
+[2019.08.29-06.32.14:537][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.29-06.32.14:552][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2732 classes and 659 folders.
+[2019.08.29-06.32.14:563][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.29-06.32.14:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:605][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:624][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:628][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:652][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:657][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:666][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:671][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:676][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:680][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:685][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:690][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:695][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:700][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.29-06.32.14:831][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.29-06.32.14:836][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.08.29-06.32.14:850][  0]LogSlate: Took 0.002161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.29-06.32.14:853][  0]LogSlate: Took 0.001842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2019.08.29-06.32.14:855][  0]LogSlate: Took 0.002232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2019.08.29-06.32.14:857][  0]LogSlate: Took 0.001901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.29-06.32.14:861][  0]LogSlate: Took 0.001630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.29-06.32.14:933][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.08.29-06.32.15:044][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.29-06.32.15:045][  0]LogLoad: (Engine Initialization) Total time: 13.13 seconds
+[2019.08.29-06.32.15:045][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.29-06.32.15:062][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2019.08.29-06.32.15:098][  0]LogAssetRegistry: Asset discovery search completed in 7.3683 seconds
+[2019.08.29-06.32.15:099][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.29-06.32.15:099][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2019.08.29-06.32.15:102][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.29-06.32.15:110][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.29-06.32.15:143][  0]LogSlate: Took 0.002134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.29-06.32.15:154][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s172179/Documents/git/Puticon/FreezeMaster/Freeze/Content/' took 0.08s
+[2019.08.29-06.32.17:977][335]LogSlate: Window 'メッセージ ログ' being destroyed
+[2019.08.29-06.32.17:980][335]LogSlate: Window 'メッセージ ログ' being destroyed
+[2019.08.29-06.32.20:042][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.29-06.32.20:117][591]MapCheck: New page: マップをチェック
+[2019.08.29-06.32.20:130][591]Cmd: MAP REBUILD ALLVISIBLE
+[2019.08.29-06.32.20:130][591]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.08.29-06.32.20:197][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.08.29-06.32.20:223][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:231][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:237][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:242][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:248][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:253][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:258][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:264][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:270][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:276][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.20:287][591]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.08.29-06.32.21:410][591]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.29-06.32.21:410][591]TextureStreamingBuild: Display: Compiling optional shaders took 1.193 seconds.
+[2019.08.29-06.32.21:420][591]LogLevel: Display: Export Material TexCoord Scales took 0.009 seconds.
+[2019.08.29-06.32.21:442][591]TextureStreamingBuild: Display: Build Texture Streaming took 0.022 seconds.
+[2019.08.29-06.32.21:462][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2019.08.29-06.32.21:463][591]LightingResults: New page: ライティングのビルド - 2019/08/30 0:32:21
+[2019.08.29-06.32.21:505][591]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.08.29-06.32.21:580][591]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.08.29-06.32.21:596][591]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.08.29-06.32.22:125][591]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.08.29-06.32.22:125][591]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12408
+[2019.08.29-06.32.27:673][591]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.08.29-06.32.27:673][591]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.08.29-06.32.27:673][591]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.08.29-06.32.27:673][591]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.08.29-06.32.27:673][591]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.08.29-06.32.27:790][591]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.08.29-06.32.27:790][591]MapCheck: New page: SideScrollerExampleMap - 2019/08/30 0:32:27
+[2019.08.29-06.32.27:791][591]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.463ミリ秒かかりました。
+[2019.08.29-06.32.27:813][591]LogEditorBuildUtils: Build time 0:07
+[2019.08.29-06.32.27:913][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2019.08.29-06.32.31:851][919]Job is a success!
+[2019.08.29-06.32.31:869][921]LogSlate: Took 0.000640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.29-06.32.31:878][921]LogSlate: Took 0.001756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2019.08.29-06.32.31:914][921]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.027s
+[2019.08.29-06.32.31:914][921]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.08.29-06.32.31:914][921]LogVolumetricLightmapImport:      BrickData 220x5x5 = 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2019.08.29-06.32.31:914][921]LogVolumetricLightmapImport:      Bricks at Level
+[2019.08.29-06.32.31:914][921]LogVolumetricLightmapImport:          0: 2.3% covering 100.0% of volume
+[2019.08.29-06.32.31:914][921]LogVolumetricLightmapImport:          1: 9.1% covering 6.3% of volume
+[2019.08.29-06.32.31:914][921]LogVolumetricLightmapImport:          2: 88.6% covering 1.0% of volume
+[2019.08.29-06.32.32:516][921]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2019.08.29-06.32.32:516][921]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2019.08.29-06.32.32:516][921]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2019.08.29-06.32.32:516][921]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2019.08.29-06.32.32:516][921]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.08.29-06.32.32:516][921]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.08.29-06.32.32:543][921]Lightmass on F53PC25: 4.17 sec total, 104 ms importing, 2 ms setup, 1.07 sec photons, 2.94 sec processing, 0 ms extra exporting [4/4 mappings]. Threads: 20.4 sec total, 2.23 sec processing.
+[2019.08.29-06.32.32:544][921]LogStaticLightingSystem: SideScrollerExampleMap_BuiltData storing lightmap data for 4 meshes in 2 LightmapResourceClusters (2.0 Meshes per cluster).
+[2019.08.29-06.32.32:564][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.08.29-06.32.32:569][921]LogStaticLightingSystem: Illumination: 11.0 sec (577 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.08.29-06.32.32:569][921]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.08.29-06.32.32:569][921]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.08.29-06.32.32:680][921]DumpUnbuiltLightIteractions
+[2019.08.29-06.32.32:680][921]Lights with unbuilt interactions: 0
+[2019.08.29-06.32.32:680][921]
+[2019.08.29-06.32.32:680][921]Primitives with unbuilt interactions: 0
+[2019.08.29-06.32.32:731][922]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.08.29-06.32.32:731][922]MapCheck: New page: SideScrollerExampleMap - 2019/08/30 0:32:32
+[2019.08.29-06.32.32:732][922]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.802ミリ秒かかりました。
