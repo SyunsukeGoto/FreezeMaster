@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFrezze_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6BCC6CB8,
-				0xBC9CD02E,
+				0xD7BF86BA,
+				0xCF0ED355,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

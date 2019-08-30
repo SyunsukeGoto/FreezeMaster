@@ -48,4 +48,14 @@
       <Filter>Source\Frezze</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Frezze\BlockType.h">
+      <Filter>Source\Frezze</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Frezze\BlockType.cpp">
+      <Filter>Source\Frezze</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

@@ -23,35 +23,56 @@ void ALoadCsvMap::LoadCsvData(FString fileName)
 	//データを入れる
 	FFileHelper::LoadFileToString(csvFullData, *filePath);
 	//データを列に分解する
-	TArray<FString> row;
-	csvFullData.ParseIntoArray(row, TEXT("\n"), true);
-	//キーを登録する
-	row[0].ParseIntoArray(m_keyList, TEXT(","), true);
-	for (int i = 0; i != m_keyList.Num(); i++)
-	{
-		m_csvData.Add(m_keyList[i]);
-	}
-	//キー以外の要素をCSVデータにキーと関連つけて登録
+	csvFullData.ParseIntoArray(m_row, TEXT("\n"), true);
+	//列の幅を取得する
+	m_row[0].ParseIntoArray(m_keyList, TEXT(","), true);
+	
+	////キー以外の要素をCSVデータにキーと関連つけて登録
 	TArray<FString> element;
-	for (int i = 1; i != row.Num(); i++)
+	for (int i = 0; i != m_row.Num(); i++)
 	{
-		row[i].ParseIntoArray(element, TEXT(","), true);
+		m_row[i].ParseIntoArray(element, TEXT(","), true);
 		for (int j = 0; j != element.Num(); j++)
 		{
-			m_csvData[m_keyList[j]].Add(element[j]);
+			m_csvData.Add(element[j]);
 		}
 	}
 	
 }
-//CSVデータのキーを取得する関数
-TArray<FString> ALoadCsvMap::GetCsvDataByKey(FString key)
+////CSVデータのキーを取得する関数
+//TArray<FString> ALoadCsvMap::GetCsvDataByKey(FString key)
+//{
+//	return m_csvData[key];
+//}
+////キーを取得する関数
+//TArray<FString> ALoadCsvMap::GetKey()
+//{
+//	return m_keyList;
+//}
+//CSVを返す関数
+TArray<FString> ALoadCsvMap::GetCsv()
 {
-	return m_csvData[key];
+	return m_csvData;
 }
-//キーを取得する関数
-TArray<FString> ALoadCsvMap::GetKey()
+//渡された値の配列を返す関数
+FString ALoadCsvMap::GetCsvData(int i, int j)
 {
-	return m_keyList;
+	//配列外に出たら0を返す
+	if (i * m_keyList.Num() + j > m_csvData.Num())
+	{
+		return "0";
+	}
+   return m_csvData[i * m_keyList.Num() + j];
+}
+//列を返す
+TArray<FString> ALoadCsvMap::GetRow()
+{
+	return m_row;
+}
+//あたされたintの数字をオブジェクトタイプに変換する関数
+ObjectType ALoadCsvMap::ToObjectType(int num)
+{
+	return (ObjectType)num;
 }
 
 // Called when the game starts or when spawned
