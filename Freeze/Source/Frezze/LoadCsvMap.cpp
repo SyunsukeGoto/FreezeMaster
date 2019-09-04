@@ -15,7 +15,7 @@ ALoadCsvMap::ALoadCsvMap()
 void ALoadCsvMap::LoadCsvData(FString fileName)
 {
 	//ディレクトリを取得
-	FString directory = FPaths::GameContentDir();
+	FString directory = FPaths::GameContentDir() + "StageData/";
 	//ファイル名
 	FString filePath = directory + fileName + ".csv";
 	//ファイルを取得する
