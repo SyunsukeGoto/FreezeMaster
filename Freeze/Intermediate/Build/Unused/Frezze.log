@@ -1,18 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UE_Projects\PuchiContest).
   Parsing headers for FrezzeEditor
     Running UnrealHeaderTool "D:\UE_Projects\PuchiContest\Freeze\Frezze.uproject" "D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\FrezzeEditor\Development\FrezzeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FrezzeEditor in 11.6493356 seconds
+  Reflection code generated for FrezzeEditor in 5.7425301 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] Frezze.init.gen.cpp
-    [2/6] LoadCsvMap.gen.cpp
-    [3/6] LoadCsvMap.cpp
-D:\UE_Projects\PuchiContest\Freeze\Source\Frezze\LoadCsvMap.cpp(18): warning C4996: 'FPaths::GameContentDir': FPaths::GameContentDir() has been superseded by FPaths::ProjectContentDir(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    D:\UE_4.22\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/Paths.h(144): note: 'FPaths::GameContentDir' の宣言を確認してください
-    [4/6] UE4Editor-Frezze-0051.lib
-       ライブラリ D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0051.lib とオブジェクト D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0051.exp を作成中
-    [5/6] UE4Editor-Frezze-0051.dll
-       ライブラリ D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0051.suppressed.lib とオブジェクト D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0051.suppressed.exp を作成中
-    [6/6] FrezzeEditor.target
-  Total time in Parallel executor: 11.20 seconds
-  Total execution time: 23.62 seconds
+  Building 1 action with 8 processes...
+    [1/1] FrezzeEditor.target
+  Total time in Parallel executor: 0.34 seconds
+  Total execution time: 6.74 seconds
