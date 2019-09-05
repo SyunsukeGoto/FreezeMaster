@@ -20,6 +20,8 @@ enum class ObjectType : uint8
 	IS_WATERFALL_QUBE UMETA(DisplayName = "WATERFALL"),//滝キューブ
 	IS_KEY_QUBE UMETA(DisplayName = "KEY"), //鍵キューブ
 	IS_KEY_DOOR UMETA(DisplayName = "KEYDOOR"),//鍵で通れるようになるドア
+	IS_WATERSWITCH_QUBE UMETA(DisplayName = "WATERSWITCH"),//水スイッチ
+	IS_GENERATE_WATER_QUBE UMETA(DisplayName = "GENERATEWATER"),//水を生成するキューブ
 
 	IS_NUM
 };
