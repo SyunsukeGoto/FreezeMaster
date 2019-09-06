@@ -38,7 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeLoadCsvMap() {}
 		return ObjectType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ObjectType(ObjectType_StaticEnum, TEXT("/Script/Frezze"), TEXT("ObjectType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Frezze_ObjectType_Hash() { return 3085993923U; }
+	uint32 Get_Z_Construct_UEnum_Frezze_ObjectType_Hash() { return 3024139246U; }
 	UEnum* Z_Construct_UEnum_Frezze_ObjectType()
 	{
 #if WITH_HOT_RELOAD
@@ -57,23 +57,38 @@ void EmptyLinkFunctionForGeneratedCodeLoadCsvMap() {}
 				{ "ObjectType::IS_WALL_QUBE", (int64)ObjectType::IS_WALL_QUBE },
 				{ "ObjectType::IS_WATER_QUBE", (int64)ObjectType::IS_WATER_QUBE },
 				{ "ObjectType::IS_GOAL_QUBE", (int64)ObjectType::IS_GOAL_QUBE },
-				{ "ObjectType::IS_NUN", (int64)ObjectType::IS_NUN },
+				{ "ObjectType::IS_WATERFALL_QUBE", (int64)ObjectType::IS_WATERFALL_QUBE },
+				{ "ObjectType::IS_KEY_QUBE", (int64)ObjectType::IS_KEY_QUBE },
+				{ "ObjectType::IS_KEY_DOOR", (int64)ObjectType::IS_KEY_DOOR },
+				{ "ObjectType::IS_WATERSWITCH_QUBE", (int64)ObjectType::IS_WATERSWITCH_QUBE },
+				{ "ObjectType::IS_GENERATE_WATER_QUBE", (int64)ObjectType::IS_GENERATE_WATER_QUBE },
+				{ "ObjectType::IS_NUM", (int64)ObjectType::IS_NUM },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "IS_GENERATE_WATER_QUBE.DisplayName", "GENERATEWATER" },
+				{ "IS_GENERATE_WATER_QUBE.ToolTip", "???X?C?b?`" },
 				{ "IS_GOAL_QUBE.DisplayName", "GOAL" },
 				{ "IS_GOAL_QUBE.ToolTip", "???L???[?u" },
 				{ "IS_GROUND_QUBE.DisplayName", "GROUNDE" },
 				{ "IS_ICE_QUBE.DisplayName", "ICE" },
 				{ "IS_ICE_QUBE.ToolTip", "????\n\n???L???[?u" },
+				{ "IS_KEY_DOOR.DisplayName", "KEYDOOR" },
+				{ "IS_KEY_DOOR.ToolTip", "???L???[?u" },
+				{ "IS_KEY_QUBE.DisplayName", "KEY" },
+				{ "IS_KEY_QUBE.ToolTip", "???L???[?u" },
 				{ "IS_NONE.DisplayName", "NONE" },
-				{ "IS_NUN.ToolTip", "?S?[???L???[?u" },
+				{ "IS_NUM.ToolTip", "???\xf0\x90\xb6\x90??????L???[?u" },
 				{ "IS_PLAYER.DisplayName", "PLAYER" },
 				{ "IS_WALL_QUBE.DisplayName", "WALL" },
 				{ "IS_WALL_QUBE.ToolTip", "?X?L???[?u" },
 				{ "IS_WATER_QUBE.DisplayName", "WATER" },
 				{ "IS_WATER_QUBE.ToolTip", "?\xc7\x83L???[?u" },
+				{ "IS_WATERFALL_QUBE.DisplayName", "WATERFALL" },
+				{ "IS_WATERFALL_QUBE.ToolTip", "?S?[???L???[?u" },
+				{ "IS_WATERSWITCH_QUBE.DisplayName", "WATERSWITCH" },
+				{ "IS_WATERSWITCH_QUBE.ToolTip", "???\xc5\x92\xca\x82????\xe6\x82\xa4?\xc9\x82\xc8\x82??h?A" },
 				{ "IsBlueprintBase", "true" },
 				{ "ModuleRelativePath", "LoadCsvMap.h" },
 				{ "ToolTip", "?I?u?W?F?N?g?\xcc\x8e???" },
