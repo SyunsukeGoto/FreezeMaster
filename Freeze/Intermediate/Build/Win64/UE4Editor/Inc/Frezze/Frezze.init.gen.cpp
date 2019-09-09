@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFrezze_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x614F06C9,
+				0xB65625E7,
 				0xCF0ED355,
 				METADATA_PARAMS(nullptr, 0)
 			};
