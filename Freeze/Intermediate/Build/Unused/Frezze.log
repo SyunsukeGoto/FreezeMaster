@@ -1,9 +1,23 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UE_Projects\PuchiContest).
+  Creating makefile for FrezzeEditor (ini files are newer than makefile)
   Parsing headers for FrezzeEditor
     Running UnrealHeaderTool "D:\UE_Projects\PuchiContest\Freeze\Frezze.uproject" "D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\FrezzeEditor\Development\FrezzeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FrezzeEditor in 5.7425301 seconds
+  Reflection code generated for FrezzeEditor in 19.133334 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 8 processes...
-    [1/1] FrezzeEditor.target
-  Total time in Parallel executor: 0.34 seconds
-  Total execution time: 6.74 seconds
+  Building 10 actions with 8 processes...
+    [1/10] SharedPCH.Engine.cpp
+    [2/10] Frezze.cpp
+    [3/10] BlockType.cpp
+    [4/10] Frezze.init.gen.cpp
+    [5/10] BlockType.gen.cpp
+    [6/10] LoadCsvMap.gen.cpp
+    [7/10] LoadCsvMap.cpp
+D:\UE_Projects\PuchiContest\Freeze\Source\Frezze\LoadCsvMap.cpp(18): warning C4996: 'FPaths::GameContentDir': FPaths::GameContentDir() has been superseded by FPaths::ProjectContentDir(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    D:\UE_4.22\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/Paths.h(144): note: 'FPaths::GameContentDir' の宣言を確認してください
+    [8/10] UE4Editor-Frezze-0001.lib
+       ライブラリ D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0001.lib とオブジェクト D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0001.exp を作成中
+    [9/10] UE4Editor-Frezze-0001.dll
+       ライブラリ D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0001.suppressed.lib とオブジェクト D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\UE4Editor-Frezze-0001.suppressed.exp を作成中
+    [10/10] FrezzeEditor.target
+  Total time in Parallel executor: 33.04 seconds
+  Total execution time: 56.00 seconds
