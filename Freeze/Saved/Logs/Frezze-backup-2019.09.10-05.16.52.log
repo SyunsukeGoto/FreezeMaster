@@ -1,0 +1,873 @@
+﻿Log file open, 09/10/19 14:10:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Frezze
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.288665
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.22/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.10-05.10.48:001][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.10-05.10.48:001][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.09.10-05.10.48:002][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.10-05.10.48:002][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.09.10-05.10.48:002][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.09.10-05.10.48:006][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.10-05.10.48:006][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.10-05.10.48:007][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.10-05.10.48:008][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.10-05.10.48:008][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.10-05.10.48:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.10-05.10.48:038][  0]LogHAL: Display: Platform has ~ 32 GB [34292334592 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.10-05.10.48:038][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.10-05.10.48:038][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Scalability.ini]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.10-05.10.48:038][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.10-05.10.48:039][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.10-05.10.48:041][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.10-05.10.48:041][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.10-05.10.48:041][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UE_Projects/PuchiContest/Freeze/Saved/Config/Windows/Engine.ini]
+[2019.09.10-05.10.48:041][  0]LogInit: Computer: F53PC10
+[2019.09.10-05.10.48:041][  0]LogInit: User: s172091
+[2019.09.10-05.10.48:041][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.10-05.10.48:041][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2019.09.10-05.10.48:041][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.09.10-05.10.48:041][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.10-05.10.48:041][  0]LogMemory: Process Physical Memory: 98.12 MB used, 98.12 MB peak
+[2019.09.10-05.10.48:041][  0]LogMemory: Process Virtual Memory: 91.05 MB used, 91.05 MB peak
+[2019.09.10-05.10.48:041][  0]LogMemory: Physical Memory: 4671.59 MB used,  28032.13 MB free, 32703.72 MB total
+[2019.09.10-05.10.48:041][  0]LogMemory: Virtual Memory: 4661.29 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.09.10-05.10.48:123][  0]LogInit: Using OS detected language (ja-JP).
+[2019.09.10-05.10.48:123][  0]LogInit: Using OS detected locale (ja-JP).
+[2019.09.10-05.10.48:123][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2019.09.10-05.10.48:177][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.10-05.10.48:221][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.10-05.10.48:221][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.10-05.10.48:967][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.10-05.10.48:967][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.10-05.10.49:035][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.09.10-05.10.49:035][  0]LogD3D11RHI:       8079/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.10-05.10.49:038][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.10-05.10.49:038][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.10-05.10.49:038][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.10-05.10.49:042][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.10-05.10.49:042][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.10-05.10.49:043][  0]LogWindows: EnumDisplayDevices:
+[2019.09.10-05.10.49:043][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.09.10-05.10.49:043][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.09.10-05.10.49:043][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.09.10-05.10.49:043][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.09.10-05.10.49:043][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.09.10-05.10.49:043][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.09.10-05.10.49:043][  0]LogD3D11RHI:   Driver Version: 431.07 (internal:26.21.14.3107, unified:431.07)
+[2019.09.10-05.10.49:043][  0]LogD3D11RHI:      Driver Date: 6-5-2019
+[2019.09.10-05.10.49:043][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.09.10-05.10.49:088][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.10-05.10.49:090][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.10-05.10.49:091][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.10-05.10.49:091][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.10-05.10.49:098][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.10-05.10.49:472][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.10-05.10.49:488][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.10-05.10.49:504][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.10-05.10.49:519][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.10-05.10.49:538][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.10-05.10.49:555][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.10-05.10.49:571][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.10-05.10.49:586][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.10-05.10.49:597][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.10-05.10.49:664][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.10-05.10.49:672][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.10-05.10.49:736][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.10-05.10.49:736][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.10-05.10.49:762][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.10-05.10.49:762][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.10-05.10.49:778][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.10-05.10.49:793][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.10-05.10.49:809][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.10-05.10.49:828][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.10-05.10.49:873][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.10-05.10.49:873][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.10-05.10.49:873][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.10-05.10.49:902][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.10-05.10.50:027][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../UE_Projects/PuchiContest/Freeze/Intermediate/Shaders/WorkingDirectory/15236/).
+[2019.09.10-05.10.50:028][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s172091/AppData/Local/Temp/UnrealShaderWorkingDir/870A61A742AEBE858FADA8B6996AC2FD/'.
+[2019.09.10-05.10.50:029][  0]LogXGEController: Cleaning working directory: C:/Users/s172091/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.09.10-05.10.50:029][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.10-05.10.50:029][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.10-05.10.50:029][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.10-05.10.51:302][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.10-05.10.51:340][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/s172091/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.10-05.10.51:340][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s172091/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.10-05.10.51:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE_Projects/PuchiContest/Freeze/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.10-05.10.51:340][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.10-05.10.51:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE_Projects/PuchiContest/Freeze/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.10-05.10.51:340][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.10-05.10.51:351][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.10-05.10.51:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.10-05.10.51:351][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.10-05.10.51:365][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s172091/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.10-05.10.51:365][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.10-05.10.51:365][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.10-05.10.51:382][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.10-05.10.51:383][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.10-05.10.51:386][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.10-05.10.51:619][  0]LogAssetRegistry: FAssetRegistry took 0.0320 seconds to start up
+[2019.09.10-05.10.51:872][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.10-05.10.52:045][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.10-05.10.52:045][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.10-05.10.52:045][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.10-05.10.52:045][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.10-05.10.52:045][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.10-05.10.52:063][  0]LogNetVersion: Frezze 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1481717962)
+[2019.09.10-05.10.52:528][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.057525 seconds
+[2019.09.10-05.10.52:533][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.10-05.10.52:533][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.10-05.10.52:533][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.10-05.10.54:934][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.10-05.10.54:954][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.10-05.10.55:192][  0]SourceControl: ソースコントロールは無効です
+[2019.09.10-05.10.55:192][  0]SourceControl: ソースコントロールは無効です
+[2019.09.10-05.10.55:202][  0]SourceControl: ソースコントロールは無効です
+[2019.09.10-05.10.55:208][  0]SourceControl: ソースコントロールは無効です
+[2019.09.10-05.10.55:495][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.10-05.10.55:627][  0]LogOcInput: OculusInput pre-init called
+[2019.09.10-05.10.56:739][  0]LogEngine: Initializing Engine...
+[2019.09.10-05.10.56:741][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.10-05.10.56:742][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.10-05.10.56:947][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.10-05.10.56:963][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.10-05.10.56:974][  0]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.10.57:004][  0]LogInit: FAudioDevice initialized.
+[2019.09.10-05.10.57:005][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.10-05.10.57:074][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/s172091/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.10-05.10.57:082][  0]LogInit: Texture streaming: Enabled
+[2019.09.10-05.10.57:115][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.10-05.10.57:143][  0]LogInit: Transaction tracking system initialized
+[2019.09.10-05.10.57:190][  0]BlueprintLog: New page: エディタの読み込み
+[2019.09.10-05.10.57:375][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2019.09.10-05.10.57:542][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2019.09.10-05.10.57:542][  0]LogLinker: Warning: ファイル '/Game/ThirdPersonBP/ThirdPersonOverview' が見つかりません
+[2019.09.10-05.10.57:542][  0]LogUObjectGlobals: Warning: オブジェクト 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' が見つかりませんでした
+[2019.09.10-05.10.57:773][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.10-05.10.57:773][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.10-05.10.58:168][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Projects/PuchiContest/Freeze/Content/' took 0.03s
+[2019.09.10-05.10.58:168][  0]SourceControl: ソースコントロールは無効です
+[2019.09.10-05.10.58:168][  0]Cmd: MAP LOAD FILE="../../../../../UE_Projects/PuchiContest/Freeze/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.10-05.10.58:169][  0]LightingResults: New page: ライティングのビルド
+[2019.09.10-05.10.58:171][  0]MapCheck: New page: マップをチェック
+[2019.09.10-05.10.58:171][  0]LightingResults: New page: ライティングのビルド
+[2019.09.10-05.10.58:191][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.09.10-05.10.58:743][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2019.09.10-05.10.58:783][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.10-05.10.58:806][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.09.10-05.10.58:806][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.10-05.10.58:806][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.083ミリ秒かかりました。
+[2019.09.10-05.10.58:806][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.639
+[2019.09.10-05.10.58:909][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.10.58:914][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.10.58:920][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.10.58:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.10.58:937][  0]LogCollectionManager: Loaded 0 collections in 0.000705 seconds
+[2019.09.10-05.10.58:974][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Projects/PuchiContest/Freeze/Saved/Collections/' took 0.01s
+[2019.09.10-05.10.58:974][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Projects/PuchiContest/Freeze/Content/Developers/s172091/Collections/' took 0.01s
+[2019.09.10-05.10.58:974][  0]LogFileCache: Scanning file cache for directory 'D:/UE_Projects/PuchiContest/Freeze/Content/Collections/' took 0.01s
+[2019.09.10-05.10.58:974][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.10-05.10.58:981][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2734 classes and 661 folders.
+[2019.09.10-05.10.58:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.10-05.10.58:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.58:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.58:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.58:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.58:997][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.58:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:008][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:010][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:012][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:013][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:019][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:021][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:021][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:026][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.10-05.10.59:110][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.10-05.10.59:120][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.09.10-05.10.59:133][  0]LogSlate: Took 0.000714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.10-05.10.59:135][  0]LogSlate: Took 0.000693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2019.09.10-05.10.59:137][  0]LogSlate: Took 0.001834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2019.09.10-05.10.59:138][  0]LogSlate: Took 0.000732 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.10-05.10.59:142][  0]LogSlate: Took 0.001795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.10-05.10.59:211][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.09.10-05.10.59:346][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.09.10-05.10.59:347][  0]LogLoad: (Engine Initialization) Total time: 13.69 seconds
+[2019.09.10-05.10.59:347][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.10-05.10.59:373][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2019.09.10-05.10.59:424][  0]LogAssetRegistry: Asset discovery search completed in 7.8263 seconds
+[2019.09.10-05.10.59:425][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.10-05.10.59:425][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2019.09.10-05.10.59:425][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.10-05.10.59:457][  0]LogSlate: Took 0.001970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.10-05.10.59:482][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UE_Projects/PuchiContest/Freeze/Content/' took 0.09s
+[2019.09.10-05.11.00:454][ 92]LogSlate: Took 0.000632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.10-05.11.00:455][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.10-05.11.00:458][ 92]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Object/BP_FireBlock.BP_FireBlock
+[2019.09.10-05.11.00:463][ 92]LogSlate: Took 0.001605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2019.09.10-05.11.00:666][ 92]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.09.10-05.11.01:278][ 92]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/SideScrollerBP/Blueprints/BP_PlaySceneUI.BP_PlaySceneUI
+[2019.09.10-05.11.01:488][ 92]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.09.10-05.11.01:999][ 92]LogBlueprint: Warning: [Compiler GruxPlayerCharacter] Input Axis Event references unknown Axis 'LookUp' for  インプットAxis LookUp
+[2019.09.10-05.11.01:999][ 92]LogBlueprint: Warning: [Compiler GruxPlayerCharacter] InputAction Event references unknown Action 'ResetVR' for  インプットアクション ResetVR
+[2019.09.10-05.11.01:999][ 92]LogBlueprint: Warning: [Compiler GruxPlayerCharacter] Input Axis Event references unknown Axis 'LookUpRate' for  インプットAxis LookUpRate
+[2019.09.10-05.11.02:000][ 92]LogBlueprint: Warning: [Compiler GruxPlayerCharacter] Input Axis Event references unknown Axis 'TurnRate' for  インプットAxis TurnRate
+[2019.09.10-05.11.02:000][ 92]LogBlueprint: Warning: [Compiler GruxPlayerCharacter] Input Axis Event references unknown Axis 'Turn' for  インプットAxis Turn
+[2019.09.10-05.11.02:000][ 92]LogBlueprint: Warning: [Compiler GruxPlayerCharacter] Input Axis Event references unknown Axis 'MoveForward' for  インプットAxis MoveForward
+[2019.09.10-05.11.02:009][ 92]LogBlueprint: Warning: [Compiler GruxPlayerCharacter] [0016.35] Compile of GruxPlayerCharacter successful, but with 6 Warning(s) [in 33 ms] (/Game/ParagonGrux/Characters/Heroes/Grux/GruxPlayerCharacter.GruxPlayerCharacter)
+[2019.09.10-05.11.02:312][ 92]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/LoadMap.LoadMap
+[2019.09.10-05.11.02:568][ 92]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Object/BP_Slide_Cube_.BP_Slide_Cube_
+[2019.09.10-05.11.02:818][ 92]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Object/BP_Icicles.BP_Icicles
+[2019.09.10-05.11.03:288][ 92]LogSlate: Took 0.001829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2019.09.10-05.11.03:290][ 92]LogSlate: Took 0.001759 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.10-05.11.03:383][ 93]LogSlate: Took 0.001829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.10-05.11.03:906][151]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGrux/Characters/Heroes/Grux/Grux_AnimBlueprint.Grux_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGrux/Characters/Heroes/Grux/Grux_AnimBlueprint.Grux_AnimBlueprint_C:ExecuteUbergraph_Grux_AnimBlueprint
+
+[2019.09.10-05.11.06:151][390]LogSlate: Window 'BP_FireBlock' being destroyed
+[2019.09.10-05.11.12:396][ 44]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/TestMap_BuiltData' が見つかりません
+[2019.09.10-05.11.12:396][ 44]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/TestMap_BuiltData'  のファイルが見つかりません
+[2019.09.10-05.11.12:401][ 44]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/TestMap_BuiltData' が見つかりません
+[2019.09.10-05.11.12:401][ 44]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/TestMap_BuiltData'  のファイルが見つかりません
+[2019.09.10-05.11.12:402][ 44]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/TestMap_BuiltData' が見つかりません
+[2019.09.10-05.11.12:402][ 44]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/TestMap_BuiltData'  のファイルが見つかりません
+[2019.09.10-05.11.12:402][ 44]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/TestMap_BuiltData' が見つかりません
+[2019.09.10-05.11.12:402][ 44]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/TestMap_BuiltData'  のファイルが見つかりません
+[2019.09.10-05.11.12:406][ 44]LogLinker: Warning: ファイル '/Game/SideScrollerBP/Maps/TestMap_BuiltData' が見つかりません
+[2019.09.10-05.11.12:407][ 44]LoadErrors: ロードに失敗しました /Game/SideScrollerBP/Maps/TestMap_BuiltData.TestMap_BuiltData 参照元 PersistentLevel
+[2019.09.10-05.11.12:407][ 44]LogLinker: Warning: NULL のロード中にアセット '/Game/SideScrollerBP/Maps/TestMap_BuiltData'  のファイルが見つかりません
+[2019.09.10-05.11.12:419][ 44]LogAIModule: Creating AISystem for world TestMap
+[2019.09.10-05.11.12:429][ 44]LogAssetEditorManager: Opening Asset editor for World /Game/SideScrollerBP/Maps/TestMap.TestMap
+[2019.09.10-05.11.12:494][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2019.09.10-05.11.12:495][ 44]Cmd: MAP LOAD FILE="../../../../../UE_Projects/PuchiContest/Freeze/Content/SideScrollerBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.10-05.11.12:495][ 44]LightingResults: New page: ライティングのビルド
+[2019.09.10-05.11.12:496][ 44]LoadErrors: New page: マップをロード中: TestMap.umap
+[2019.09.10-05.11.12:497][ 44]MapCheck: New page: マップをチェック
+[2019.09.10-05.11.12:497][ 44]LightingResults: New page: ライティングのビルド
+[2019.09.10-05.11.12:534][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.09.10-05.11.12:554][ 44]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.10-05.11.12:589][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.09.10-05.11.12:615][ 44]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.10-05.11.12:616][ 44]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.068ミリ秒かかりました。
+[2019.09.10-05.11.12:616][ 44]LogFileHelpers: Loading map 'TestMap' took 0.121
+[2019.09.10-05.11.15:772][408]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.11.15:785][408]LogAssetEditorManager: Opening Asset editor for World /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap
+[2019.09.10-05.11.15:823][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.09.10-05.11.15:824][408]Cmd: MAP LOAD FILE="../../../../../UE_Projects/PuchiContest/Freeze/Content/SideScrollerBP/Maps/TestLoadMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.10-05.11.15:824][408]LightingResults: New page: ライティングのビルド
+[2019.09.10-05.11.15:824][408]LoadErrors: New page: マップをロード中: TestLoadMap.umap
+[2019.09.10-05.11.15:825][408]MapCheck: New page: マップをチェック
+[2019.09.10-05.11.15:825][408]LightingResults: New page: ライティングのビルド
+[2019.09.10-05.11.15:860][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.09.10-05.11.15:864][408]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.10-05.11.15:903][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.09.10-05.11.15:928][408]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.10-05.11.15:929][408]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.091ミリ秒かかりました。
+[2019.09.10-05.11.15:929][408]LogFileHelpers: Loading map 'TestLoadMap' took 0.106
+[2019.09.10-05.11.26:475][657]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/BPGameInstance.BPGameInstance
+[2019.09.10-05.11.31:900][263]BlueprintLog: New page: BPGameInstance をコンパイル
+[2019.09.10-05.11.31:984][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.09.10-05.11.32:843][361]LogTemp: Repeating last play command: 選択ビューポート
+[2019.09.10-05.11.32:869][361]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.11.32:869][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.10-05.11.32:870][361]PIE: New page: PIEセッション: TestLoadMap (2019/09/10 23:11:32)
+[2019.09.10-05.11.32:883][361]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap
+[2019.09.10-05.11.32:897][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013764s)
+[2019.09.10-05.11.32:898][361]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.11.32:898][361]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2019.09.10-05.11.32:898][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap (0.014558s)
+[2019.09.10-05.11.32:938][361]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.09.10-05.11.32:941][361]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.11.32:948][361]LogInit: FAudioDevice initialized.
+[2019.09.10-05.11.32:955][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.11.33:002][361]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.10-05.11.33:003][361]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap up for play (max tick rate 0) at 2019.09.10-14.11.33
+[2019.09.10-05.11.33:003][361]LogWorld: Bringing up level for play took: 0.001636
+[2019.09.10-05.11.33:018][361]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.09.10-05.11.33:019][361]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.09.10-05.11.33:020][361]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.09.10-05.11.33:064][361]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap 0.065のプレイ イン エディタの開始時間
+[2019.09.10-05.11.33:065][361]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.11.33:290][363]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:1).
+[2019.09.10-05.11.36:244][712]LogSlate: Window 'Frezze ゲームプレビュー Standalone (64-ビット/PCD3D_SM5)' being destroyed
+[2019.09.10-05.11.36:247][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.11.36:283][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.10-05.11.36:283][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.11.36:352][712]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2019.09.10-05.11.36:364][713]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.09.10-05.11.39:209][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Slide_Cube__C (BP_Slide_Cube_)
+[2019.09.10-05.11.40:019][135]Cmd: DELETE
+[2019.09.10-05.11.40:019][135]Cmd: ACTOR DELETE
+[2019.09.10-05.11.40:020][135]LogEditorActor: Deleted Actor: BP_Slide_Cube__C
+[2019.09.10-05.11.40:068][135]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.09.10-05.11.40:069][135]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2019.09.10-05.11.42:341][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-05.11.42:426][413]LogTemp: Repeating last play command: 選択ビューポート
+[2019.09.10-05.11.42:458][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.11.42:458][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.10-05.11.42:458][413]PIE: New page: PIEセッション: TestLoadMap (2019/09/10 23:11:42)
+[2019.09.10-05.11.42:459][413]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap
+[2019.09.10-05.11.42:470][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011407s)
+[2019.09.10-05.11.42:470][413]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.11.42:471][413]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2019.09.10-05.11.42:471][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap (0.012026s)
+[2019.09.10-05.11.42:516][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.09.10-05.11.42:519][413]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.11.42:526][413]LogInit: FAudioDevice initialized.
+[2019.09.10-05.11.42:554][413]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.10-05.11.42:556][413]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap up for play (max tick rate 0) at 2019.09.10-14.11.42
+[2019.09.10-05.11.42:556][413]LogWorld: Bringing up level for play took: 0.001093
+[2019.09.10-05.11.42:619][413]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap -0.38のプレイ イン エディタの開始時間
+[2019.09.10-05.11.42:620][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.11.50:556][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-05.12.07:156][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.12.07:157][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.12.07:185][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.10-05.12.07:185][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.12.07:241][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.12.07:293][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.09.10-05.12.07:312][354]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.09.10-05.13.30:682][  0]LogTemp: Repeating last play command: 選択ビューポート
+[2019.09.10-05.13.30:725][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.13.30:726][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.10-05.13.30:726][  0]PIE: New page: PIEセッション: TestLoadMap (2019/09/10 23:13:30)
+[2019.09.10-05.13.30:726][  0]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap
+[2019.09.10-05.13.30:741][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014983s)
+[2019.09.10-05.13.30:741][  0]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.13.30:742][  0]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2019.09.10-05.13.30:742][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap (0.015643s)
+[2019.09.10-05.13.31:081][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.09.10-05.13.31:084][  0]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.13.31:091][  0]LogInit: FAudioDevice initialized.
+[2019.09.10-05.13.31:120][  0]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.10-05.13.31:122][  0]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap up for play (max tick rate 0) at 2019.09.10-14.13.31
+[2019.09.10-05.13.31:122][  0]LogWorld: Bringing up level for play took: 0.001040
+[2019.09.10-05.13.31:179][  0]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap 0.179のプレイ イン エディタの開始時間
+[2019.09.10-05.13.31:179][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.13.38:486][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.13.38:487][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.13.38:515][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.10-05.13.38:515][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.13.38:579][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.13.38:589][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.09.10-05.13.38:603][875]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.09.10-05.13.41:534][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-05.14.32:065][199]LogTemp: Repeating last play command: 選択ビューポート
+[2019.09.10-05.14.32:106][199]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.14.32:106][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.10-05.14.32:107][199]PIE: New page: PIEセッション: TestLoadMap (2019/09/10 23:14:32)
+[2019.09.10-05.14.32:107][199]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap
+[2019.09.10-05.14.32:118][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011527s)
+[2019.09.10-05.14.32:119][199]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.14.32:119][199]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2019.09.10-05.14.32:119][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap (0.012114s)
+[2019.09.10-05.14.32:395][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.09.10-05.14.32:398][199]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.14.32:405][199]LogInit: FAudioDevice initialized.
+[2019.09.10-05.14.32:436][199]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.10-05.14.32:438][199]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap up for play (max tick rate 0) at 2019.09.10-14.14.32
+[2019.09.10-05.14.32:438][199]LogWorld: Bringing up level for play took: 0.001014
+[2019.09.10-05.14.32:475][199]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap -0.525のプレイ イン エディタの開始時間
+[2019.09.10-05.14.32:476][199]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.14.36:526][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-05.14.36:628][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.14.36:628][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.14.36:662][693]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.10-05.14.36:662][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.14.36:721][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.14.36:728][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.09.10-05.14.36:743][694]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.09.10-05.14.55:955][960]LogTemp: Repeating last play command: 選択ビューポート
+[2019.09.10-05.14.55:990][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.14.55:990][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.10-05.14.55:990][960]PIE: New page: PIEセッション: TestLoadMap (2019/09/10 23:14:55)
+[2019.09.10-05.14.55:990][960]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap
+[2019.09.10-05.14.56:001][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010609s)
+[2019.09.10-05.14.56:001][960]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.14.56:002][960]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2019.09.10-05.14.56:002][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap (0.011249s)
+[2019.09.10-05.14.56:134][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.09.10-05.14.56:136][960]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.14.56:143][960]LogInit: FAudioDevice initialized.
+[2019.09.10-05.14.56:175][960]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.10-05.14.56:178][960]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap up for play (max tick rate 0) at 2019.09.10-14.14.56
+[2019.09.10-05.14.56:178][960]LogWorld: Bringing up level for play took: 0.002049
+[2019.09.10-05.14.56:236][960]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap 1.237のプレイ イン エディタの開始時間
+[2019.09.10-05.14.56:236][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.15.02:391][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.15.02:391][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.15.02:421][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.10-05.15.02:421][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.15.02:493][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.15.02:502][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.09.10-05.15.02:516][697]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.09.10-05.15.11:551][734]LogTemp: Repeating last play command: 選択ビューポート
+[2019.09.10-05.15.11:585][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.15.11:585][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.10-05.15.11:586][734]PIE: New page: PIEセッション: TestLoadMap (2019/09/10 23:15:11)
+[2019.09.10-05.15.11:586][734]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap
+[2019.09.10-05.15.11:597][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010902s)
+[2019.09.10-05.15.11:597][734]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.15.11:597][734]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2019.09.10-05.15.11:597][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap (0.011498s)
+[2019.09.10-05.15.11:681][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.09.10-05.15.11:683][734]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.15.11:690][734]LogInit: FAudioDevice initialized.
+[2019.09.10-05.15.11:723][734]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.10-05.15.11:725][734]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap up for play (max tick rate 0) at 2019.09.10-14.15.11
+[2019.09.10-05.15.11:725][734]LogWorld: Bringing up level for play took: 0.001007
+[2019.09.10-05.15.11:763][734]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap 0.763のプレイ イン エディタの開始時間
+[2019.09.10-05.15.11:763][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.15.23:355][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-05.15.32:656][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_Cube_C (BP_Wall_Cube)
+[2019.09.10-05.16.10:644][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.10-05.16.24:965][925]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.16.24:966][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.16.24:999][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.10-05.16.24:999][925]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.16.25:130][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.10-05.16.25:175][925]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.09.10-05.16.25:188][926]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.09.10-05.16.25:749][987]LogTemp: Repeating last play command: 選択ビューポート
+[2019.09.10-05.16.25:796][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.16.25:796][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.10-05.16.25:796][987]PIE: New page: PIEセッション: TestLoadMap (2019/09/10 23:16:25)
+[2019.09.10-05.16.25:796][987]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap
+[2019.09.10-05.16.25:808][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011148s)
+[2019.09.10-05.16.25:808][987]LogAIModule: Creating AISystem for world TestLoadMap
+[2019.09.10-05.16.25:808][987]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2019.09.10-05.16.25:808][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap (0.011741s)
+[2019.09.10-05.16.25:849][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.09.10-05.16.25:851][987]LogInit: XAudio2 using 'PLE2483H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.10-05.16.25:857][987]LogInit: FAudioDevice initialized.
+[2019.09.10-05.16.25:884][987]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.09.10-05.16.25:886][987]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap up for play (max tick rate 0) at 2019.09.10-14.16.25
+[2019.09.10-05.16.25:886][987]LogWorld: Bringing up level for play took: 0.000999
+[2019.09.10-05.16.25:924][987]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap 0.924のプレイ イン エディタの開始時間
+[2019.09.10-05.16.25:924][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLoadMap.TestLoadMap:PersistentLevel.TestLoadMap'
+[2019.09.10-05.16.46:939][134]LogLevel: Warning: Failed to find streaming level object associated with 'ResultMap'
+[2019.09.10-05.16.46:972][135]LogNet: Browse: /Game/SideScrollerBP/Maps/ResultMap
+[2019.09.10-05.16.46:972][135]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/ResultMap
+[2019.09.10-05.16.47:047][135]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.09.10-05.16.47:047][135]LogLoad: World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap not cleaned up by garbage collection! 
+[2019.09.10-05.16.47:755][135]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2019.09.10-05.16.47:755][135]LogReferenceChain:  TransBuffer /Engine/Transient.TransBuffer_0::AddReferencedObjects()
+[2019.09.10-05.16.47:755][135]LogReferenceChain:   (PendingKill) World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap
+[2019.09.10-05.16.47:755][135]LogReferenceChain:   
+[2019.09.10-05.16.47:755][135]LogReferenceChain: (root) UnrealEdEngine /Engine/Transient.UnrealEdEngine_0->Trans
+[2019.09.10-05.16.47:755][135]LogReferenceChain:  TransBuffer /Engine/Transient.TransBuffer_0::AddReferencedObjects()
+[2019.09.10-05.16.47:755][135]LogReferenceChain:   (PendingKill) Level /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap:PersistentLevel->Outer
+[2019.09.10-05.16.47:755][135]LogReferenceChain:    (PendingKill) World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap
+[2019.09.10-05.16.47:755][135]LogReferenceChain:   
+[2019.09.10-05.16.47:954][135]LogLoad:    World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap [target]
+   UnrealEdEngine /Engine/Transient.UnrealEdEngine_0 (root) (ObjectProperty /Script/UnrealEd.EditorEngine:Trans)
+
+[2019.09.10-05.16.47:954][135]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.09.10-05.16.47:955][135]LogWindows: Windows GetLastError: この操作を正しく終了しました。 (0)
+[2019.09.10-05.16.51:904][135]LogWindows: Error: === Critical error: ===
+[2019.09.10-05.16.51:904][135]LogWindows: Error: 
+[2019.09.10-05.16.51:904][135]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp] [Line: 6912] 
+[2019.09.10-05.16.51:904][135]LogWindows: Error: World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap not cleaned up by garbage collection!
+[2019.09.10-05.16.51:904][135]LogWindows: Error:    World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLoadMap.TestLoadMap [target]
+[2019.09.10-05.16.51:904][135]LogWindows: Error:    UnrealEdEngine /Engine/Transient.UnrealEdEngine_0 (root) (ObjectProperty /Script/UnrealEd.EditorEngine:Trans)
+[2019.09.10-05.16.51:904][135]LogWindows: Error: 
+[2019.09.10-05.16.51:904][135]LogWindows: Error: 
+[2019.09.10-05.16.51:904][135]LogWindows: Error: 
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffe199a388 KERNELBASE.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffabc91f37 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffabc946e7 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffabaa7d1a UE4Editor-Core.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffaba2fe33 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffaba2fd18 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fff82713f0c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fff7894bf91 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fff788f1d97 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fff7897a9a8 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fff8270fec2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fff82f2d396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007ff6d5526bb1 UE4Editor.exe!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007ff6d553554c UE4Editor.exe!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007ff6d55355ca UE4Editor.exe!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007ff6d554316c UE4Editor.exe!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007ff6d5545b8e UE4Editor.exe!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffe4704034 KERNEL32.DLL!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: [Callstack] 0x00007fffe4b13691 ntdll.dll!UnknownFunction []
+[2019.09.10-05.16.51:904][135]LogWindows: Error: 
+[2019.09.10-05.16.51:977][135]LogExit: Executing StaticShutdownAfterError
+[2019.09.10-05.16.51:983][135]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.09.10-05.16.52:046][135]Log file closed, 09/10/19 14:16:52
