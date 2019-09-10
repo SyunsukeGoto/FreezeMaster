@@ -1,3 +1,3 @@
-D:\GitHub\FreezeMaster\Freeze\Source\Frezze\Frezze.Build.cs
-D:\GitHub\FreezeMaster\Freeze\Source\Frezze.Target.cs
-D:\GitHub\FreezeMaster\Freeze\Source\FrezzeEditor.Target.cs
+C:\Users\s172179\Documents\git\Puticon\FreezeMaster\Freeze\Source\Frezze\Frezze.Build.cs
+C:\Users\s172179\Documents\git\Puticon\FreezeMaster\Freeze\Source\Frezze.Target.cs
+C:\Users\s172179\Documents\git\Puticon\FreezeMaster\Freeze\Source\FrezzeEditor.Target.cs
