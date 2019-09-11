@@ -1,2 +1,2 @@
-C:\Users\s172179\Documents\git\Puticon\FreezeMaster\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\Definitions.Frezze.h
-c:\users\s172179\documents\git\puticon\freezemaster\freeze\source\frezze\Frezze.h
+D:\UE_Projects\PuchiContest\Freeze\Intermediate\Build\Win64\UE4Editor\Development\Frezze\Definitions.Frezze.h
+d:\ue_projects\puchicontest\freeze\source\frezze\Frezze.h
