@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Frezze.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B16ECF69-5CAE-47C3-B768-8232A21118CE}</UniqueIdentifier>
+      <UniqueIdentifier>{3DC882A8-6A6C-4493-82AE-F8D3B95ECCDB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Frezze.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0E60610F-AC93-4926-A7A6-A24FE8E4FA66}</UniqueIdentifier>
+      <UniqueIdentifier>{476ED40C-ADA9-481A-AB95-E1CEB298964E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Frezze">
-      <UniqueIdentifier>{9F68C574-FF76-499E-8043-38D428C0574F}</UniqueIdentifier>
+      <UniqueIdentifier>{29E6193C-207B-4171-81AF-CEEC834F9EA7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Frezze\BlockType.cpp">
+      <Filter>Source\Frezze</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Frezze\BlockType.h">
+      <Filter>Source\Frezze</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Frezze\Frezze.Build.cs">
       <Filter>Source\Frezze</Filter>
     </None>
@@ -47,15 +53,5 @@
     <ClInclude Include="..\..\Source\Frezze\LoadCsvMap.h">
       <Filter>Source\Frezze</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Frezze\BlockType.h">
-      <Filter>Source\Frezze</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Frezze\BlockType.cpp">
-      <Filter>Source\Frezze</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

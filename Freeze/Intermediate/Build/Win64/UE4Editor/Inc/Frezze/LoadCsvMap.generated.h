@@ -14,7 +14,7 @@ enum class ObjectType : uint8;
 #endif
 #define FREZZE_LoadCsvMap_generated_h
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_RPC_WRAPPERS \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execToObjectType) \
 	{ \
@@ -61,7 +61,7 @@ enum class ObjectType : uint8;
 	}
 
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execToObjectType) \
 	{ \
@@ -108,7 +108,7 @@ enum class ObjectType : uint8;
 	}
 
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_INCLASS_NO_PURE_DECLS \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALoadCsvMap(); \
 	friend struct Z_Construct_UClass_ALoadCsvMap_Statics; \
@@ -117,7 +117,7 @@ public: \
 	DECLARE_SERIALIZER(ALoadCsvMap)
 
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_INCLASS \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_INCLASS \
 private: \
 	static void StaticRegisterNativesALoadCsvMap(); \
 	friend struct Z_Construct_UClass_ALoadCsvMap_Statics; \
@@ -126,7 +126,7 @@ public: \
 	DECLARE_SERIALIZER(ALoadCsvMap)
 
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_STANDARD_CONSTRUCTORS \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ALoadCsvMap(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ALoadCsvMap) \
@@ -139,7 +139,7 @@ private: \
 public:
 
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_ENHANCED_CONSTRUCTORS \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ALoadCsvMap(ALoadCsvMap&&); \
@@ -150,26 +150,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALoadCsvMap); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ALoadCsvMap)
 
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_PRIVATE_PROPERTY_OFFSET
-#define Freeze_Source_Frezze_LoadCsvMap_h_23_PROLOG
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_GENERATED_BODY_LEGACY \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_PRIVATE_PROPERTY_OFFSET
+#define Freeze_Source_Frezze_LoadCsvMap_h_39_PROLOG
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_PRIVATE_PROPERTY_OFFSET \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_RPC_WRAPPERS \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_INCLASS \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_STANDARD_CONSTRUCTORS \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_PRIVATE_PROPERTY_OFFSET \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_RPC_WRAPPERS \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_INCLASS \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Freeze_Source_Frezze_LoadCsvMap_h_26_GENERATED_BODY \
+#define Freeze_Source_Frezze_LoadCsvMap_h_42_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_PRIVATE_PROPERTY_OFFSET \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_INCLASS_NO_PURE_DECLS \
-	Freeze_Source_Frezze_LoadCsvMap_h_26_ENHANCED_CONSTRUCTORS \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_PRIVATE_PROPERTY_OFFSET \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_RPC_WRAPPERS_NO_PURE_DECLS \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_INCLASS_NO_PURE_DECLS \
+	Freeze_Source_Frezze_LoadCsvMap_h_42_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -182,13 +182,28 @@ template<> FREZZE_API UClass* StaticClass<class ALoadCsvMap>();
 
 #define FOREACH_ENUM_OBJECTTYPE(op) \
 	op(ObjectType::IS_NONE) \
-	op(ObjectType::IS_PLAYER) \
+	op(ObjectType::IS_WALL_QUBE) \
 	op(ObjectType::IS_GROUND_QUBE) \
 	op(ObjectType::IS_ICE_QUBE) \
-	op(ObjectType::IS_WALL_QUBE) \
+	op(ObjectType::IS_MISSING_QUBE4) \
+	op(ObjectType::IS_MISSING_QUBE5) \
+	op(ObjectType::IS_MISSING_QUBE6) \
+	op(ObjectType::IS_MISSING_QUBE7) \
+	op(ObjectType::IS_MISSING_QUBE8) \
+	op(ObjectType::IS_MISSING_QUBE9) \
 	op(ObjectType::IS_WATER_QUBE) \
+	op(ObjectType::IS_ICICLE_QUBE) \
+	op(ObjectType::IS_FIREBLOCK_QUBE) \
+	op(ObjectType::IS_WATERFALL_QUBE) \
+	op(ObjectType::IS_ENEMY_QUBE) \
+	op(ObjectType::IS_ENEMY_COLLISION) \
+	op(ObjectType::IS_KEY_BLOCK) \
+	op(ObjectType::IS_DOOR_QUBE) \
+	op(ObjectType::IS_KEYICEBLOCK) \
+	op(ObjectType::IS_MISSING_GIMMICK19) \
+	op(ObjectType::IS_PLAYER) \
 	op(ObjectType::IS_GOAL_QUBE) \
-	op(ObjectType::IS_NUN) 
+	op(ObjectType::IS_NUM) 
 
 enum class ObjectType : uint8;
 template<> FREZZE_API UEnum* StaticEnum<ObjectType>();

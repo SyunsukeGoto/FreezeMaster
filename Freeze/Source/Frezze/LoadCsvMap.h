@@ -10,15 +10,31 @@
 UENUM(Blueprintable)
 enum class ObjectType : uint8
 {
-	IS_NONE UMETA(DisplayName = "NONE"),		   //無し
-	IS_PLAYER UMETA(DisplayName = "PLAYER"),	   //
-	IS_GROUND_QUBE UMETA(DisplayName = "GROUNDE"), //床キューブ
-	IS_ICE_QUBE UMETA(DisplayName = "ICE"),		   //氷キューブ
-	IS_WALL_QUBE UMETA(DisplayName = "WALL"),	   //壁キューブ
-	IS_WATER_QUBE UMETA(DisplayName = "WATER"),    //水キューブ
-	IS_GOAL_QUBE UMETA(DisplayName = "GOAL"),      //ゴールキューブ
+	IS_NONE UMETA(DisplayName = "NONE"),		   //無し			0
+	IS_WALL_QUBE UMETA(DisplayName = "WALL"),	   //壁キューブ		1
+	IS_GROUND_QUBE UMETA(DisplayName = "GROUNDE"), //床キューブ		2
+	IS_ICE_QUBE UMETA(DisplayName = "ICE"),		   //氷キューブ		3
+	IS_MISSING_QUBE4 UMETA(DisplayName = "4"),
+	IS_MISSING_QUBE5 UMETA(DisplayName = "5"),
+	IS_MISSING_QUBE6 UMETA(DisplayName = "6"),
+	IS_MISSING_QUBE7 UMETA(DisplayName = "7"),
+	IS_MISSING_QUBE8 UMETA(DisplayName = "8"),
+	IS_MISSING_QUBE9 UMETA(DisplayName = "9"),
+	IS_WATER_QUBE UMETA(DisplayName = "WATER"),        //水キューブ		10
 
-	IS_NUN
+	IS_ICICLE_QUBE UMETA(DisplayName = "ICICLE_QUBE"), //氷柱キューブ	11
+	IS_FIREBLOCK_QUBE UMETA(DisplayName = "FIREBLOCK"),//炎キューブ		12
+	IS_WATERFALL_QUBE UMETA(DisplayName = "WATERFALL"),//滝キューブ		13
+	IS_ENEMY_QUBE UMETA(DisplayName = "ENEMY"),		   //敵キューブ		14
+	IS_ENEMY_COLLISION UMETA(DisplayName = "ENEMYCOLLISION"),  //敵判定キューブ 15
+	IS_KEY_BLOCK UMETA(DisplayName = "KEY"),		    //鍵キューブ     16
+	IS_DOOR_QUBE UMETA(DisplayName = "DOOR"),		    //ドアキューブ	17
+	IS_KEYICEBLOCK UMETA(DisplayName = "KEYICEBLOCK"),  //鍵ドア			18
+	IS_MISSING_GIMMICK19 UMETA(DisplayName = "19"),   
+	IS_PLAYER UMETA(DisplayName = "PLAYER"),	        //プレイヤー		20
+	IS_GOAL_QUBE UMETA(DisplayName = "GOAL"),           //ゴールキューブ	21
+
+	IS_NUM
 };
 UCLASS()
 class FREZZE_API ALoadCsvMap : public AActor
